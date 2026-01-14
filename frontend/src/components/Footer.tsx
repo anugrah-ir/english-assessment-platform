@@ -12,11 +12,17 @@ export default function Footer() {
                     <p className="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
                 <div className="flex flex-col gap-2">
-                    <Link href="/" className="hover:text-red-700 transition-colors duration-300">
+                    <Link href="/" className="hover:text-red-600 transition-colors duration-300">
                         Beranda
                     </Link>
-                    <Link href="/test" className="hover:text-red-700 transition-colors duration-300">
+                    <Link href="/test" className="hover:text-red-600 transition-colors duration-300">
                         Tes
+                    </Link>
+                    <Link href="/feature" className="hover:text-red-600 transition-colors duration-300">
+                        Fitur
+                    </Link>
+                    <Link href="/faq" className="hover:text-red-600 transition-colors duration-300">
+                        FAQ
                     </Link>
                 </div>
                 <div className="flex flex-col gap-2">
@@ -28,7 +34,7 @@ export default function Footer() {
                             placeholder="Your email address"
                             className="px-4 py-2"
                         />
-                        <button className="bg-amber-500 font-semibold text-white text-sm px-4 py-2 mx-1 my-1 rounded-4xl hover:bg-red-700 transition-colors duration-300">
+                        <button className="bg-amber-500 font-semibold text-white text-sm px-4 py-2 mx-1 my-1 rounded-4xl hover:bg-red-600 transition-colors duration-300">
                             Sign Up
                         </button>
                     </div>
