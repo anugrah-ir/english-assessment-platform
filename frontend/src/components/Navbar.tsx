@@ -19,7 +19,7 @@ export default function Navbar() {
     }`;
 
   return (
-    <nav className="flex flex-row items-center px-20 justify-between w-full bg-neutral-100 border-b-1 border-neutral-300 shadow-md h-16 text-base font-medium fixed z-10">
+    <nav className="fixed z-10 flex h-16 w-full flex-row items-center justify-between border-b-1 border-neutral-300 bg-neutral-100 px-20 text-base font-medium shadow-md">
       <div className="flex flex-row items-center justify-center gap-8">
         <Link
           href="/"
@@ -47,13 +47,13 @@ export default function Navbar() {
       <div className="flex flex-row items-center justify-center gap-3">
         <Link
           href="/register"
-          className="border-2 text-red-600 hover:text-white border-red-600 py-1 px-3 rounded-xl hover:cursor-pointer hover:bg-red-600 transition-colors duration-300"
+          className="rounded-xl border-2 border-red-600 px-3 py-1 text-red-600 transition-colors duration-300 hover:cursor-pointer hover:bg-red-600 hover:text-white"
         >
           Daftar
         </Link>
         <Link
           href="/login"
-          className="bg-amber-500 text-white py-1 px-3 rounded-xl hover:cursor-pointer hover:bg-red-600 transition-colors duration-300"
+          className="rounded-xl bg-amber-500 px-3 py-1 text-white transition-colors duration-300 hover:cursor-pointer hover:bg-red-600"
         >
           Masuk
         </Link>
